@@ -12,7 +12,7 @@ Edit README.md with this content
 
 Copy-generate files and directories in this directory. (Directories will be pushed only if they are not empty.)
 
-	$ git init      # initialize  this directory as a Git repository
+	$ git init     # initialize  this directory as a Git repository
 	$ git add .   # Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
 	$ git commit -m "First commit"   # Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
 	
@@ -24,5 +24,5 @@ After editing files, repeat the process with the following commands from the she
 
 	git init; git add .;  git commit -m "actualizare"; git push origin master 
 
-
+**Warning: **The content of the directory will be mirrored in the online repository!, so if you delete files, it will be deletead on the online also.
 
