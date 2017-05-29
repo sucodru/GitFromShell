@@ -10,7 +10,7 @@ Create directory:
 
 Edit README.md with this content
 
-Copy-generate files and directories in this directory.
+Copy-generate files and directories in this directory. (Directories will be pushed only if they are not empty.)
 
 	$ git init      # initialize  this directory as a Git repository
 	$ git add .   # Adds the files in the local repository and stages them for commit. To unstage a file, use 'git reset HEAD YOUR-FILE'.
@@ -21,7 +21,8 @@ Copy-generate files and directories in this directory.
 	$ git push origin master  # Pushes the changes after you indicate username and pass
 	
 After editing files, repeat the process with the following commands from the shell:
-	git init; git add .;  git commit -m; git push origin master 
+
+	git init; git add .;  git commit -m "actualizare"; git push origin master 
 
 
 
